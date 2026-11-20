@@ -252,9 +252,7 @@ class TestResponseFormatAsToolStrategy:
                 [
                     AIMessage(
                         content="",
-                        tool_calls=[
-                            {"name": "WeatherBaseModel", "id": "1", "args": WEATHER_DATA}
-                        ],
+                        tool_calls=[{"name": "WeatherBaseModel", "id": "1", "args": WEATHER_DATA}],
                     ),
                 ]
             )
@@ -298,9 +296,7 @@ class TestResponseFormatAsToolStrategy:
                 [
                     AIMessage(
                         content="",
-                        tool_calls=[
-                            {"name": "WeatherBaseModel", "id": "1", "args": WEATHER_DATA}
-                        ],
+                        tool_calls=[{"name": "WeatherBaseModel", "id": "1", "args": WEATHER_DATA}],
                     ),
                 ]
             )
